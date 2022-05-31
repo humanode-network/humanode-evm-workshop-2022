@@ -34,11 +34,11 @@ manifest file above.
 
 Download binary (Linux x86_64):
 
-    wget https://chainspec.testnet3.stages.humanode.io/latest/binaries/Linux-x86_64/humanode-peer
+    curl -LSs https://chainspec.testnet3.stages.humanode.io/latest/binaries/Linux-x86_64/humanode-peer -o humanode-peer
 
 Download binary (Darwin x86_64):
 
-    wget https://chainspec.testnet3.stages.humanode.io/latest/binaries/Darwin-x86_64/humanode-peer
+    curl -LSs https://chainspec.testnet3.stages.humanode.io/latest/binaries/Darwin-x86_64/humanode-peer -o humanode-peer
 
 Now we have to change the file permissions to make it executable:
 
@@ -102,6 +102,11 @@ Deploy contracts to the Humanode network:
 Remix is a web IDE for quick and easy smart contract development and deployment. To use Remix, we
 first need to connect our local node to MetaMask.
 
+MetaMask is a crypto wallet and gateway for blockchain apps. Download and install the MetaMask
+extension for your browser: https://metamask.io/
+
+Once installed, create a new wallet.
+
 Add our network to MetaMask through `Settings -> Networks -> Add a network`, and enter the following
 details:
 
@@ -118,6 +123,8 @@ To deploy and run contracts you need an account with gas. A pre-funded dev accou
 Import the following address into MetaMask: `0x99b3c12287537e38c90a9219d4cb074a89a16e9cdb20bf85728ebd97c343e342`.
 
 Go to https://remix.ethereum.org/
+
+For the popup, select the development account you just imported.
 
 Compile contract, and deploy with "Injected Web3".
 
