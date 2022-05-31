@@ -72,7 +72,7 @@ Next unbox the Humanode truffle box (this can take a while):
 
     truffle unbox humanode-network/humanode-truffle-box
 
-Write your contracts (example contract shown below).
+Write your contracts (example `contracts/MyToken.sol` shown below).
 
 ```solidity
 // SPDX-License-Identifier: MIT
