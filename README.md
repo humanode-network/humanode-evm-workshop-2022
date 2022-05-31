@@ -23,7 +23,7 @@ To begin, let's create a directory for our node:
     mkdir humanode-peer
     cd humanode-peer
 
-Now to download the humanode-peer bindary.
+Now to download the humanode-peer binary.
 
 The URL of the binary is different depending on OS and architecture. Use the following manifest file
 to determine the correct location for your system: https://chainspec.testnet3.stages.humanode.io/latest/manifest.json
@@ -40,7 +40,7 @@ Download binary (Darwin x86_64):
 
     wget https://chainspec.testnet3.stages.humanode.io/latest/binaries/Darwin-x86_64/humanode-peer
 
-Now we have to change the file permisions to make it executable:
+Now we have to change the file permissions to make it executable:
 
     chmod +x humanode-peer
 
@@ -100,7 +100,7 @@ Deploy contracts to the Humanode network:
 # Using Remix
 
 Remix is a web IDE for quick and easy smart contract development and deployment. To use Remix, we
-first need to conntect our local node to MetaMask.
+first need to connect our local node to MetaMask.
 
 Add our network to MetaMask through `Settings -> Networks -> Add a network`, and enter the following
 details:
@@ -123,12 +123,12 @@ Compile contract, and deploy with "Injected Web3".
 
 # Extra
 
-- Polkadotjs: use the polkadot explorer to debug chain events and transactions: https://polkadot.js.org/apps/#/explorer
+- Polkadotjs: use the Polkadot explorer to debug chain events and transactions: https://polkadot.js.org/apps/#/explorer
 
 - Desktop app: we've downloaded the binary directly, but everything you see here is also possible using
-    the desktop app. Please review the humanode docs for more information: https://desktop-app-docs.humanode.io/
+    the desktop app. Please review the Humanode docs for more information: https://desktop-app-docs.humanode.io/
 
-- Open source: we plan on taking humanode open-source, however this will be after mainnet launch.
+- Open source: we plan on taking Humanode open-source, however this will be after mainnet launch.
     We don't want people to use it before it's ready.
 
 - Pallet EVM: Humanode is built using Substrate, which is a framework for making blockchains.
